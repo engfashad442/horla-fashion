@@ -5,7 +5,7 @@ namespace ahmad.Persistence
 {
     public class AhmadDbContext:DbContext
     {
-        public AhmadDbContext(DbContextOptions<AhmadDbContext> options)
+   public AhmadDbContext(DbContextOptions<AhmadDbContext> options)
         :base(options)
         {
             
