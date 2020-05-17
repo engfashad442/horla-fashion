@@ -13,7 +13,6 @@ namespace ahmad.Controllers
         public MakesController(AhmadDbContext context)
         {
             this.context = context;
-
         }
         [HttpGet("/api/makes")]
         public  async Task<IEnumerable<Make>>GetMakes()
