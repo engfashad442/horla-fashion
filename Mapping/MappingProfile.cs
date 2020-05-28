@@ -11,6 +11,9 @@ namespace ahmad.Mapping
         {
             CreateMap<Make,MakeResource>();
             CreateMap<Model,ModelResource>();
+            CreateMap<Feature ,KeyValuePairResource>();
+            CreateMap<Make, KeyValuePairResource>();
+            CreateMap<Model, KeyValuePairResource>();
         }
     }
 }

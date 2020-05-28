@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ahmad.Persistence;
 
 namespace ahmad.Migrations
 {
     [DbContext(typeof(AhmadDbContext))]
-    partial class AhmadDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200528143612_adding features to the application")]
+    partial class addingfeaturestotheapplication
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

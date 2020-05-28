@@ -11,6 +11,7 @@ namespace ahmad.Persistence
             
         }
         public DbSet<Make> makes { get; set; }
+        public DbSet<Feature> Features {get; set;}
         
     }
 }
