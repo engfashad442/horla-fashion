@@ -8,7 +8,7 @@ namespace ahmad.Controllers
     
     {
         [HttpPost]
-        public IActionResult CreateVehincle(Vehincle vehincle){
+        public IActionResult CreateVehincle([FromBody] Vehincle vehincle){
           return Ok(vehincle);
 
         }
